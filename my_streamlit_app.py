@@ -1,5 +1,7 @@
 import streamlit as st
-!pip install scikit-learn
+import subprocess
+# Install scikit-learn using pip
+subprocess.run(["pip", "install", "scikit-learn"])
 from sklearn.preprocessing import LabelEncoder
 import tensorflow as tf
 import numpy as np
