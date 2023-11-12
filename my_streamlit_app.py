@@ -1,5 +1,5 @@
 import streamlit as st
-import sklearn
+!pip install scikit-learn
 from sklearn.preprocessing import LabelEncoder
 import tensorflow as tf
 import numpy as np
