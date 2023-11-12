@@ -1,8 +1,13 @@
 import streamlit as st
 import subprocess
-# Install scikit-learn using pip
-subprocess.run(["pip", "install", "sklearn"])
-from sklearn.preprocessing import LabelEncoder
+try:
+    from sklearn.preprocessing import LabelEncoder
+except ModuleNotFoundError:
+    import subprocess
+    subprocess.run(["pip", "install", "scikit-learn"])
+    from sklearn.preprocessing import LabelEncoder  # Try importing again
+
+# Continue with your code that uses LabelEncoder
 import tensorflow as tf
 import numpy as np
 import pickle
