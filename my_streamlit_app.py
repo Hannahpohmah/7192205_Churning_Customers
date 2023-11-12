@@ -1,5 +1,5 @@
 import streamlit as st
-from scikit-learn.preprocessing import LabelEncoder,OneHotEncoder
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import tensorflow as tf
 import numpy as np
 import pickle
