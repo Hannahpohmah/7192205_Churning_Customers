@@ -1,4 +1,5 @@
 import streamlit as st
+import sklearn
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 import tensorflow as tf
 import numpy as np
