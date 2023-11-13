@@ -5,7 +5,6 @@ import numpy as np
 import pickle
 import pandas as pd
 from create_model import create_model
-
 from joblib import load
 model_path= 'D:\\Ashesi Edu\\Sophomore Year\\INTRO TO AI\\Pohmahmbuh_ASS3\\final_best_model.plk'
 
