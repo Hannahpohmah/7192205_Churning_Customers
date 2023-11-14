@@ -31,10 +31,15 @@ Learn how to use the app by watching the tutorial video on YouTube:
 
 # File Structure
 app.py: Streamlit application script.
+
 create_model.py: File containing the code for creating the neural network model.
+
 final_best_model.plk: Serialized neural network model file.
+
 scaler.joblib: Serialized scaler for feature scaling.
+
 label_encoder.joblib: Serialized label encoder for categorical variables.
+
 requirements.txt: File containing required dependencies.
 
 
