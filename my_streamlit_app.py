@@ -13,8 +13,8 @@ model_path= 'final_best_model.plk'
 with open(model_path, 'rb') as f:
     best_model= pickle.load(f)
 
-scaler_path = 'D:\\Ashesi Edu\\Sophomore Year\\INTRO TO AI\\Pohmahmbuh_ASS3\\scaler.joblib'
-label_path='D:\\Ashesi Edu\\Sophomore Year\\INTRO TO AI\\Pohmahmbuh_ASS3\\label_encoder.joblib'
+scaler_path = 'scaler.joblib'
+label_path='label_encoder.joblib'
 
 scaler = load(scaler_path)
 
