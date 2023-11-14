@@ -30,7 +30,7 @@ The app has been deployed on Streamlit Cloud and is accessible here: https://chu
 Learn how to use the app by watching the tutorial video on YouTube:
 
 # File Structure
-app.py: Streamlit application script.
+my_streamlit_app.py: Streamlit application script.
 
 create_model.py: File containing the code for creating the neural network model.
 
