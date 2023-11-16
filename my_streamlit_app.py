@@ -20,7 +20,7 @@ scaler = load(scaler_path)
 
 label_encoder = load(label_path)
 
-with open('Accuracy.text', 'r') as file:
+with open('Accuracy.txt', 'r') as file:
     content = file.read()
 
 st.title("Nueral network model using TensorFlow's Keras API for Churn prediction")
