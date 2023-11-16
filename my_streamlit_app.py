@@ -80,7 +80,7 @@ def main():
         st.write(f"Predicted Churn: {predicted_churn}") 
         auc = best_model.auc  # Replace 'auc' with the attribute name containing the AUC
         st.write(f"Model AUC: {auc}")
-        st.write(f"Accuracy: {content}") 
+        st.write(f"Model's Accuracy: {content}") 
         
 if __name__ == "__main__":
     main()
