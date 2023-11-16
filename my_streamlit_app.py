@@ -19,7 +19,8 @@ label_path='label_encoder.joblib'
 scaler = load(scaler_path)
 
 label_encoder = load(label_path)
-
+with open(Accuracy.text, 'r') as file:
+    content = file.read()
 
 st.title("Nueral network model using TensorFlow's Keras API for Churn prediction")
 
@@ -75,8 +76,11 @@ def main():
         # Map the predicted label using the dictionary
         predicted_churn = label_mapping[predicted_churn_label]
         # Display the prediction
-        st.write(f"Predicted Churn: {predicted_churn}")   
-
+        st.write(f"Predicted Churn: {predicted_churn}") 
+        auc = best_model.auc  # Replace 'auc' with the attribute name containing the AUC
+        st.write(f"Model AUC: {auc}")
+        st.write(f"Accuracy: {content}") 
+        
 if __name__ == "__main__":
     main()
  
