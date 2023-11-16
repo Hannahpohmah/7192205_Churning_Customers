@@ -19,6 +19,7 @@ label_path='label_encoder.joblib'
 scaler = load(scaler_path)
 
 label_encoder = load(label_path)
+
 with open('Accuracy.text', 'r') as file:
     content = file.read()
 
