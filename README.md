@@ -6,6 +6,7 @@ This Streamlit app serves as a predictive tool for telecom companies to anticipa
 Churn Prediction: Provide a user-friendly interface for users to input customer-specific attributes and receive real-time churn predictions.
 Insight Generation: Assist telecom companies in identifying potential churners among their customer base to take proactive retention measures.
 Neural Network Modeling: Utilize advanced neural network architecture to accurately predict churn based on historical customer data. 
+The trained model can be found here: https://colab.research.google.com/drive/1U0dXJEIxhR8ZeRa98iRUMGXf_-gABA13?usp=sharing
 
 #Functionalities
 User Input Collection: Enable users to input a range of customer attributes encompassing demographic information (e.g., 'Senior Citizen', 'Gender'), service-related details ('Tenure', 'Monthly Charges'), and plan specifics ('Contract', 'Payment Method').
