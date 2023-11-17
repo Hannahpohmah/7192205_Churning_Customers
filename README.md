@@ -8,7 +8,7 @@ Insight Generation: Assist telecom companies in identifying potential churners a
 Neural Network Modeling: Utilize advanced neural network architecture to accurately predict churn based on historical customer data. 
 The trained model can be found here: https://colab.research.google.com/drive/1DnRlIbtspUVuWqd5gYF8z277rA0oE6Yo?usp=sharing
 
-#Functionalities
+# Functionalities
 User Input Collection: Enable users to input a range of customer attributes encompassing demographic information (e.g., 'Senior Citizen', 'Gender'), service-related details ('Tenure', 'Monthly Charges'), and plan specifics ('Contract', 'Payment Method').
 
 Neural Network Prediction: Employ a pre-trained neural network model (loaded from final_best_model.plk) to process the user-input data and generate churn predictions based on learned patterns from historical data.
