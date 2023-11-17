@@ -25,7 +25,7 @@ Fill in the customer attributes (Senior Citizen, Tenure, Monthly Charges, etc.).
 Click the "Predict" button to get the churn prediction.
 
 # Deployment
-The app has been deployed on Streamlit Cloud and is accessible here: https://71922025churningprediction.streamlit.app/
+The app has been deployed on Streamlit Cloud and is accessible here: https://7192205churningcustomers-n6eiuqedq7sjzo84bxynp6.streamlit.app/
 
 # Tutorial Video
 Learn how to use the app by watching the tutorial video on YouTube:
