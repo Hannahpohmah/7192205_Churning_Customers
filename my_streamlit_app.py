@@ -40,8 +40,8 @@ def main():
     device_protection = st.selectbox('Device Protection', ['Yes', 'No', 'No internet service'])
     tech_support = st.selectbox('Tech Support', ['Yes', 'No', 'No internet service'])
     paperless_billing = st.selectbox('Paperless Billing', ['Yes', 'No'])
-    payment_method = st.selectbox('Payment Method', ['Electronic check'])
-    contract = st.selectbox('Contract', ['Month-to-month'])
+    payment_method = st.selectbox('Payment Method', ['Electronic check','Mail Check','Bank Transfer','Credit Card'])
+    contract = st.selectbox('Contract', ['Month-to-month','One year','Two year'])
 
 
     if st.button("Predict"):
