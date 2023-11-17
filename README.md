@@ -28,7 +28,7 @@ Click the "Predict" button to get the churn prediction.
 The app has been deployed on Streamlit Cloud and is accessible here: https://7192205churningcustomers-n6eiuqedq7sjzo84bxynp6.streamlit.app/
 
 # Tutorial Video
-Learn how to use the app by watching the tutorial video on YouTube:
+Learn how to use the app by watching the tutorial video on YouTube: https://youtu.be/hCKgzyMx75I
 
 # File Structure
 my_streamlit_app.py: Streamlit application script.
